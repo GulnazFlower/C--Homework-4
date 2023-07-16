@@ -6,6 +6,7 @@
 int GetNaturalDegree(int a, int b)
 {   
     int naturalDegree = 1;
+    int count = 0;
     while (count < b)
     {
         naturalDegree = naturalDegree * a;
